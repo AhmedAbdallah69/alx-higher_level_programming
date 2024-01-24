@@ -53,7 +53,7 @@ class Square:
             print()
         else:
             count = 1
-            while(count <= self.__size):
+            while (count <= self.__size):
                 if count == 1:
                     print("\n" * self.__position[1], end="")
                 print(" " * self.__position[0], end="")
